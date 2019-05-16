@@ -20,6 +20,10 @@ function doing(){
 </script>
 
 <button onclick ="doing()">Clickme</button>
+<?php
+		echo 'There should be a space after this';
+ ?>
 <p>Is there a space before this?</p>
+
 
 </body>
