@@ -5,8 +5,10 @@
 
 $Rarray = array(23,62,64,3,45,21,54,99,45,9);
 
-   function insertionSort($Rarray){
+   function insertionSort($array){
      echo "Hello World\n";
-     echo "Element 1 is {$Rarray[0]}";  
+     echo "Element 1 is {$array[0]}";
    }
+
+   insertionSort($Rarray);
  ?>
